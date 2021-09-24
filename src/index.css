@@ -4,26 +4,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: muli;
+ 
 }
-.navbar{
-  background-color: rgb(248, 242, 242)!important;
-}
-.navbar li a :hover {
-  color: green;
 
-}
 .navbar-brand{
   font-size: 1.9rem!important;
   color: #3498db!important;
+  padding-left: 60px;
 }
-
 .menu_active{
   font-weight: bold;
-  border-bottom: 1px solid #565387;
+  border-bottom: 1px solid #3498db;
 }
 #header{
   margin-top: 100px;
-
 }
 #header .brand-name{
   color: #3498db;
@@ -62,7 +56,6 @@
   100%{
    transform: translateX(-10px);
   }
-
 }
 .card img {
   height: 200px;
@@ -95,6 +88,7 @@ transform: translateY(10px);
 }
 .learn-more{
   border-radius: 35px;
+  background-color: #a74045;
 }
 .outer {
   position: relative;
@@ -107,18 +101,61 @@ transform: translateY(10px);
       width: 100%;
   }
 }
-
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-input{
-  padding: 10px 20px;
-  width: 100%;
-  border: none;
-  margin: 20px 0;
-  outline: none;
 
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 20px 12px 0 rgba(12, 2, 2, 0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid rgb(26, 22, 22);
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #613535!important;
+  color:white;
+  ;
+  font-size: 20px;
+}
+.button {
+  background-color: #a74045;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
 }

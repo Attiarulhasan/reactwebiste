@@ -24,7 +24,7 @@ import { NavLink } from "react-router-dom";
                 <div className="row gy-4 mx-auto text-center">
                  <>
                  <div className="col-lg-3 col-md-6 text-center">
-                 <img src={img1} className="img-fluid" alt="..."/>
+                 <img src={img1} className="img-fluid rounded" alt="..."/>
                  <h4 className="pt-3">Senior Web developer
                  <h5>John Doe</h5>
                  </h4>
@@ -38,7 +38,7 @@ import { NavLink } from "react-router-dom";
                   <NavLink to="" className="btn btn-danger learn-more">Learn More </NavLink>
                  </div>
                  <div className=" col-lg-3 col-md-6 ">
-                 <img src={img2} className="img-fluid" alt="..."/>
+                 <img src={img2} className="img-fluid rounded" alt="..."/>
                  <h4 className="pt-3">Android developer <br/>
                  <span><h5>Harisson bacheria</h5></span>
                  </h4>
@@ -52,7 +52,7 @@ import { NavLink } from "react-router-dom";
                  <NavLink to="" className="btn btn-danger learn-more">Learn More.. </NavLink>
                  </div>
                  <div className="col-lg-3 col-md-6">
-                 <img src={img3} className="img-fluid" alt="..."/>
+                 <img src={img3} className="img-fluid rounded" alt="..."/>
                  <h4 className="pt-3">Senior HR manager <br/>
                  <span><h5>Olivia Lawne</h5></span>
                  </h4>
@@ -66,7 +66,7 @@ import { NavLink } from "react-router-dom";
                  <NavLink to="" className="btn btn-danger learn-more">Learn More.. </NavLink>
                  </div>
                  <div className="col-lg-3 col-md-6">
-                 <img src={img4} className="img-fluid" alt="..."/>
+                 <img src={img4} className="img-fluid rounded" alt="..."/>
                  <h4 className="pt-3">Project manager
                  <br/>
                  <span><h5>Daniel Oliver</h5></span>

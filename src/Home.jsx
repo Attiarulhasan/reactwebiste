@@ -5,6 +5,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Slider from "./Slider";
 import Team from "./Team";
+import Pricecard from "./Pricecard";
 
 const Home =()  =>{
     return  (
@@ -16,8 +17,9 @@ const Home =()  =>{
          <Slider/>
          <Services/>
          <Team/>
+         <Pricecard/>
          <Contact/>
         </>
-    )
-}
+    );
+};
 export default Home;
